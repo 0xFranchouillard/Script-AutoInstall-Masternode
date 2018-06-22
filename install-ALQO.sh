@@ -63,7 +63,8 @@ if [[ "$key" == "" ]]; then
 	decho "WARNING: No masternode private key entered, exiting !!!"
 	exit 3
 fi
-read -e -p "(Optional) Install Fail2ban? (Recommended) [Y/n] : " install_fail2ban
+read -e -p "(Optional) 
+Fail2ban? (Recommended) [Y/n] : " install_fail2ban
 read -e -p "(Optional) Install UFW and configure ports? (Recommended) [Y/n] : " UFW
 
 decho "Updating system and installing required packages."   
